@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>联系我们</title>
+  <link href="styles/basic.css" rel="stylesheet">
+  <script type="text/javascript" src="scripts/jquery.js"></script>
+  <script src="scripts/global.js"></script>
+  <script src="scripts/textareachange.js"></script>
+</head>
+
+<body>
+<header>
+  <img src="images/logo.gif" alt="我们的乐队">
+  <nav>
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="about.html">关于</a></li>
+      <li><a href="photos.html">图库</a></li>
+      <li><a href="live.html">现场</a></li>
+      <li><a href="contact.html">联系我们</a></li>
+    </ul>
+  </nav>
+</header>
+<article>
+  <h1>联系我们</h1>
+  <form method="post" action="submit.html">
+    <fieldset>
+      <p>
+        <label for="name">姓名:</label>
+        <input type="text" id="name" name="姓名" placeholder="你的姓名" required="required">
+      </p>
+      <p>
+        <label for="email">邮箱:</label>
+        <input type="email" id="email" name="电子邮箱" placeholder="你的邮件地址" required="required">
+      </p>
+      <p>
+        <label for="message" class="msglabel">留言:</label>
+      <div class="changetextarea">
+        <input type="button" value="留言框放大" class="bigger">
+        <input type="button" value="留言框缩小" class="smaller">
+      </div>
+      <textarea name="留言" id="message" cols="45" rows="7" required="required" placeholder="请写下你的留言"></textarea>
+      </p>
+      <input type="submit" value="发送" class="submit" id="send">
+    </fieldset>
+  </form>
+</article>
+</body>
+</html>

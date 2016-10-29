@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-09-30 07:58:07
+ * @version $Id$
+ */
+
+body {
+    color: #fb5;
+    background-color: #334;
+}
+
+a:link {
+    color: #445;
+    background-color: #eb6;
+}
+
+a:hover {
+    color: #667;
+    background-color: #fb5;
+}
+
+a:active {
+    color: #778;
+    background-color: #ec8;
+}
+
+header {
+    color: #455;
+    background-color: #334;
+    border-color: #667;
+}
+
+header nav {
+    color: #445;
+    background-color: #789;
+    border-color: #667;
+}
+
+article {
+    color: #223;
+    background-color: #edc;
+    border-color: #667;
+}
+
+header nav ul {
+    border-color: #99a;
+}
+
+header nav a:link,
+header nav a:visited {
+    color: #eef;
+    background-color: transparent;
+    border-color: #99a;
+}
+
+header nav a:hover {
+    color: #445;
+    background-color: #eb6;
+}
+
+header nav a:active {
+    color: #667;
+    background-color: #ec8;
+}
+
+atricle img {
+    border-color: #ba9;
+}
+
+#imagegallery a {
+    background-color: transparent;
+}
+
+header nav a.here:link,
+header nav a.here:visited,
+header nav a.here:hover,
+header nav a.here:active {
+    color: #eef;
+    background-color: #799;
+}
+
+tr.odd td {
+    color: #223;
+    background-color: #ec8;
+}
+
+tr.highlight td {
+    color: #223;
+    background-color: #cba;
+}
+
+input.placeholder {
+    color: gray;
+}
+
+
+input[required] {
+    border-color: #A1A1A1;
+}
+
+.focus {
+    border: 1px solid #f00;
+    background: #F9F8AE;
+}
+.formtips {
+    margin: 2px;
+    padding: 2px;
+    width: 200px;
+}
+.onError {
+    background: #ffe0e9 url("../images/reg3.gif") no-repeat scroll 0 center;
+    padding-left: 25px;
+}
+.onSuccess {
+    background: #e9fbeb url("../images/reg4.gif") no-repeat scroll 0 center;
+    padding-left: 25px;
+}

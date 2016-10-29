@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-09-30 08:10:32
+ * @version $Id$
+ */
+
+section,
+header,
+article,
+nav {
+    display: block;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 1em 10%;
+    background-image: url(../images/background.gif);
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: repeat-x;
+    max-width: 80em;
+    min-width: 48em;
+}
+
+header {
+    background-image: url(../images/guitarist.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;
+}
+
+header nav {
+    background-image: url(../images/navbar.gif);
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    padding-left: 10%;
+}
+
+header nav ul {
+    width: 100%;
+    overflow: hidden;
+    border-left-width: .1em;
+    border-left-style: solid;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav li a {
+    display: block;
+    float: left;
+    padding: .5em 2em;
+    border-right: .1em solid;
+}
+
+article {
+    border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 2em 10%;
+    line-height: 1.8em;
+}
+
+article img {
+    border-width: .1em;
+    border-style: solid;
+    outline-width: .1em;
+    outline-style: solid;
+}
+
+#关于 header {
+    background-image: url(../images/lineup.gif);
+}
+
+#图库 header {
+    background-image: url(../images/basshead.gif);
+}
+
+#现场 header {
+    background-image: url(../images/bassist.gif);
+}
+
+#联系我们 header {
+    background-image: url(../images/frummer.gif);
+}
+
+#slideshow {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+#preview {
+    position: absolute;
+    border-width: 0;
+    outline-width: 0;
+}
+
+#frame {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#imagegallery li {
+    display: inline;
+}
+
+td {
+    padding: .5em 3em;
+}
+
+th {
+    color: #edc;
+    background-color: #455;
+}
+
+tr td {
+    color: #223;
+    background-color: #eb6;
+}
+
+dl {
+    overflow: hidden;
+}
+
+dt {
+    float: left;
+}
+
+dd {
+    float: left;
+}
+
+label {
+    display: block;
+}
+
+fieldset {
+    border: 0;
+}
+
+.msg_caption {
+
+    margin-bottom: 1px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.msg_caption span {
+    background: #898989 none repeat scroll 0 0;
+    color: white;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    left: 500px;
+    margin: 0 2px;
+    padding: 4px 10px;
+}
+.changetextarea{  
+    display: block;
+    margin-left: 12em;
+    margin-bottom: .5em;
+
+}
+.msglabel{
+    display: block;
+    margin-bottom: -2.8em;
+}
+.bigger,.smaller,.submit{
+    cursor: pointer;
+}
+
